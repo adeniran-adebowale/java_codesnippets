@@ -20,7 +20,7 @@ public class StaticNested {
             static class Inside{
         
             String powerRaise(int value){
-
+                System.out.println(value);
                 return "THE "+value;
             }
         }
